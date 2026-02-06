@@ -1,1 +1,56 @@
-data/*.tsv.gz
+# ======================
+# Raw Data Files
+# ======================
+data/raw/
+data/cleaned/
+*.tsv
+*.tsv.gz
+*.gz
+*.csv
+
+# ======================
+# Power BI
+# ======================
+*.pbix
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# ======================
+# Jupyter / Databricks
+# ======================
+.ipynb_checkpoints/
+*.ipynb
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================
+# IDE
+# ======================
+.vscode/
+.idea/
+*.iml
+
+# ======================
+# Logs & Temp
+# ======================
+*.log
+*.tmp
+tmp/
