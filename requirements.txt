@@ -1,0 +1,18 @@
+# Data Profiling
+ydata-profiling
+pandas==2.2.3
+numpy
+
+# Web Scraping
+requests
+bs4
+
+# Snowflake (local validation)
+snowflake-connector-python==3.12.3
+snowflake-sqlalchemy==1.7.0
+
+# Environment variables
+python-dotenv
+
+# Databricks CLI
+databricks-cli
