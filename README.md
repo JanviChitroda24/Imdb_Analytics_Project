@@ -192,6 +192,7 @@ The platform enables business analysts to:
 1. Install Python 3.9+  
 2. Install dependencies:
    ```bash
+   source myenv/bin/activate
    pip install -r requirements.txt
    ```
 
@@ -207,6 +208,9 @@ The platform enables business analysts to:
    - `data/raw/title.ratings.tsv`
 
 ## Author
+
+### 3) Folder Structure command
+tree  -I "__pycache__|*.pyc|.git|.venv|env|myenv|node_modules|*.log" 
 
 **Janvi Chitroda**  
 MS Information Systems — Northeastern University  

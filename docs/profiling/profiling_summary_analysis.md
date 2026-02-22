@@ -41,7 +41,8 @@ Profiling was run across 7 IMDb datasets totaling **204,295,502 rows**. The data
 
 **Why This Matters:** Clean primary keys mean we can trust referential integrity from the source. No deduplication is needed at Bronze. Surrogate key generation in Gold can proceed without worrying about source key collisions.
 
-**Interview Angle:** If asked "Did you encounter any data quality issues with keys?", the answer is: *"All 7 datasets had valid primary keys with zero nulls and zero duplicates. This gave us confidence to build surrogate keys in Gold directly from natural keys without deduplication logic."*
+**Did you encounter any data quality issues with keys?"** 
+Answer: *"All 7 datasets had valid primary keys with zero nulls and zero duplicates. This gave us confidence to build surrogate keys in Gold directly from natural keys without deduplication logic."*
 
 ---
 
