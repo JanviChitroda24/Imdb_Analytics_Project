@@ -53,4 +53,4 @@ desktop.ini
 # ======================
 *.log
 *.tmp
-tmp/
+tmp/myenv/
